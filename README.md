@@ -1,79 +1,83 @@
-# 🏏IPL-Pulse-Real-Time-Cricket-Dashboard📊
+# 🏏 IPL Pulse – Real-Time Cricket Dashboard 📊
 
-IPL Pulse is an interactive and real-time cricket analytics dashboard built in Power BI, designed to deliver live updates and deep insights throughout the IPL 2025 season.
+**IPL Pulse** is a real-time cricket analytics dashboard built in **Power BI**, providing dynamic and live insights for IPL 2025. It combines multiple data sources and modern BI techniques to deliver a powerful fan and analyst experience.
 
-🔧 Features
-📡 Live Match Data – Auto-refreshing visuals powered by API and web data sources
+---
 
-🧩 Multiple Data Sources – 10+ Excel files + Web Scraping + API integration
+## 🔧 Features
 
-📊 Dynamic Visuals – Track team performance, player stats, match results, points table & more
+- 📡 **Live match data** with automatic refresh  
+- 🧩 Integrated from 10+ Excel files, web scraping, and APIs  
+- 📊 Visualizes team stats, player performance, match history, and points table  
+- 🔁 Interactive drill-through and tooltips  
+- 📱 Mobile-optimized layout  
+- ⚡ Fast performance with incremental refresh and optimized DAX
 
-📱 Mobile-Optimized – Designed to work seamlessly across desktop, tablet & mobile devices
+---
 
-🔁 Drill-Through & Tooltips – Click for player/team-level insights with smooth navigation
+## 🔢 Data Sources
 
-🔐 Incremental Refresh – Real-time performance with optimized data model
+- 📄 **Excel Files**:
+  - Match results
+  - Player statistics
+  - Team squads
+  - Stadium/venue details
+  - Points table archives
 
-🔢 Data Sources
-📄 Excel Sheets (10+):
+- 🌐 **Web Scraping**:
+  - [ESPNcricinfo](https://www.espncricinfo.com/) – player profiles, match data  
+  - Official IPL Website – schedules and team info
 
-Match results
+- 🔗 **API Integration**:
+  - [Ultimate Cricket Data API](https://www.ultimatecricketdata.com/) – live scores, match summaries, and player data  
+  - JSON data processed via Power Query
 
-Player performance
+> All sources are cleaned and transformed using Power Query with scheduled refreshes on Power BI Service.
 
-Team squads
+---
 
-Stadiums/venues
+## 📄 Pages Overview
 
-Historical points tables
+**Viewer Mode (4 Pages)**:
+- Overview  
+- Points Table  
+- Squads  
+- Records  
 
-🌐 Web Scraping:
+**Full Dashboard (13 Pages)**:
+- Advanced analytics including player form, venue trends, match comparisons, and more.
 
-ESPNcricinfo – Player details, match scorecards
+---
 
-Official IPL website – Fixtures, team info
+## 💻 Tech Stack
 
-🔗 API Integration:
+- Power BI Desktop / Power BI Service  
+- Power Query  
+- DAX (Data Analysis Expressions)  
+- REST API (Ultimate Cricket Data API)  
+- JSON / Web Scraping  
+- Figma (UI design)
 
-Ultimate Cricket Data API – Live match scores, player stats, match summaries
+---
 
-JSON endpoints integrated using Power Query
+## 📸 Preview
 
-Data is cleaned, transformed, and scheduled for refresh using Power BI Service to ensure near real-time updates.
+*(Add screenshots or GIFs of your dashboard here)*
 
-📄 Pages Overview
-Viewer Mode (4 Pages):
+---
 
-Overview
+## 🚀 Future Enhancements
 
-Points Table
+- 🎯 Predictive modeling for match outcomes  
+- ☁️ Integration with Azure Stream Analytics  
+- 🌍 Public embedding via Power BI Service or custom web app
 
-Squads
+---
 
-Records
+## 📬 Feedback
 
-Full Version (13 Pages):
+Feel free to ⭐ the repo, open an issue, or contribute!  
+I'd love to hear your thoughts and ideas to improve this project.
 
-In-depth stats including player form, venue history, match comparison & more
+---
 
-💻 Tech Stack
-Power BI Desktop / Service
-
-Power Query
-
-DAX (Data Analysis Expressions)
-
-Ultimate Cricket Data API
-
-Figma (UI Mockups & Layout Planning)
-
-📸 Preview
-(Add screenshots or GIFs here to showcase dashboard visuals)
-
-🚀 Future Enhancements
-🎯 Predictive analytics for match outcomes using ML
-
-☁️ Azure Stream Analytics integration
-
-🌐 Public embed with custom branding
